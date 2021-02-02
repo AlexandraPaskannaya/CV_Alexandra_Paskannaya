@@ -11,15 +11,15 @@ click_btn.addEventListener('click', function(event) {
 });*/
 
 
-let title = document.getElementsByTagName('h3');
-for (let i = 0; i < title.length; i++) {
-    title[i].addEventListener('click', function(event) {
-        this.classList.toggle('active');
-        let target = event.target;
-    if(target.tagName != 'h3') {
+let titles = document.getElementsByTagName('h3');
+
+for (let i = 0; i < titles.length; i++) {
+    titles[i].addEventListener('click', function(event) {
+        
+    if(event.target.parentNode.nextElementSibling.tagName !== 'UL') {
          return;
     } else {
-        target.classList.toggle('hide_show');
+       event.target.parentNode.nextElementSibling.classList.toggle('hide');
         }
     })
 }
