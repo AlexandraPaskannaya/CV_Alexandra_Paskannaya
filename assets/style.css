@@ -12,7 +12,7 @@ body{
     background: #838383;
     font-size: 14px;
     line-height: 22px;
-    color: #555555;
+    color: #000000;
 }
 
 .bold{
@@ -204,20 +204,19 @@ body{
     border: 2px solid #124457;
 }
 
-ul.show{
-    height: 240px;
-    transition: height 0.3s ease-out;
-   
-}
-
 ul.hide{
     overflow: hidden;
     height: 0px;
-    transition: height 0.3s ease-out;
-
+    transition: all 0.4s ease-out;
 }
+
+h3, h4{
+    display: inline-block;
+}
+
 h3.bold:hover{
     opacity: 0.4;
     text-decoration: underline;
     cursor: pointer;
+    
 }
