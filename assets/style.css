@@ -32,7 +32,7 @@ body{
 
 .resume{
     width: 800px;
-    height: auto;
+    height: 100%;
     display: flex;
     margin: 25px auto;
 }
@@ -160,11 +160,18 @@ body{
     position: relative;
 }
 
-.resume .resume_right ul li .date{
+.resume .resume_right ul li .date {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;
 }
+.dat{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
 .resume .resume_right ul li .info{
     margin-bottom: 20px;
 }
@@ -204,10 +211,19 @@ body{
     border: 2px solid #124457;
 }
 
+ul.show{
+    height: 240px;
+    transition: height 0.5s ease-out;
+}
+
+ul.show_2{
+    height: 80px;
+    transition: height 0.5s ease-out;
+}
+
 ul.hide{
-    overflow: hidden;
     height: 0px;
-    transition: all 0.4s ease-out;
+    overflow: hidden;
 }
 
 h3, h4{
@@ -215,8 +231,14 @@ h3, h4{
 }
 
 h3.bold:hover{
-    opacity: 0.4;
+    opacity: 0.6;
     text-decoration: underline;
     cursor: pointer;
-    
+    box-shadow: 0 3px 3px #143b42;
+}
+.dat:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 3px #143b42;
+    text-decoration: underline;
+    opacity: 0.6;
 }
