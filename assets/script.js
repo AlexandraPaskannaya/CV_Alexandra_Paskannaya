@@ -28,7 +28,7 @@ for (let i = 0; i < dat.length; i++) {
 
 let arr = [1, 2, -20, 4, 5, 7, 8, 10, 6, 3]
 let start = 0;
-    let end = arr.length -1;
+let end = arr.length -1;
 
 function recursive (arr, el, start, end) {
 

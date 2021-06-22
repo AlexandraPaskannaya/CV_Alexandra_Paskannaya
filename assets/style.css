@@ -24,7 +24,7 @@ body{
 .semi_bold{
     font-weight: 500;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
 }
 .semi_bold:hover{
     opacity: 0.2;
@@ -195,7 +195,6 @@ body{
     left: -20px;
     width: 2px;
     height: 115px;
-    background:  #124457;
 }
 .resume .resume_right .resume_other ul{
     padding-left: 40px;
