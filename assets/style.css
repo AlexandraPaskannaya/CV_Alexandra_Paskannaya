@@ -211,7 +211,7 @@ body{
 }
 
 ul.show{
-    height: 550px;
+    height: 750px;
     transition: height 0.5s ease-out;
 }
 
